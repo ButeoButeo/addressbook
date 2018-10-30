@@ -48,7 +48,7 @@ $cities = $db->resultset();
  							<div class="row">
 								<div class="large-6 columns">
 								  <label>Street
-								  <input name="street" type="text" placeholder="Enter Address 1" value="<?php echo $contact->address1; ?>" />
+								  <input name="street" type="text" placeholder="Enter Address 1" value="" />
 								  </label>
 
 									<div class="large-4 columns">
@@ -64,7 +64,7 @@ $cities = $db->resultset();
 							    </div>
 								<div class="large-4 columns">
 									<label>Zipcode
-									    <input name="zipcode" type="text" placeholder="Enter Zipcode" value="<?php echo $contact->zipcode; ?>" />
+									    <input name="zipcode" type="text" placeholder="Enter Zipcode" value="" />
 								    </label>
 								</div>
 						  	<input name="submit" type="submit" class="add-btn button right small" value="Submit">

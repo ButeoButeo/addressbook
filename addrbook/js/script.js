@@ -22,6 +22,7 @@ $(document).ready(function() {
 	
 	//Edit Contact
 	$(document).on('submit', '#editContact', function() {
+
 		//Show Loader Image
 		$('#loaderImage').show();
 		
